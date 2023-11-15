@@ -41,3 +41,13 @@ body {
   border: none;
   border-radius: 35px;
 }
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
