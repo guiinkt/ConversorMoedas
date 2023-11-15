@@ -40,6 +40,12 @@ body {
 
   border: none;
   border-radius: 35px;
+
+  cursor: pointer;
+}
+
+.converter-button:hover{
+  cursor: pointer;
 }
 
 .page-title {
