@@ -1,9 +1,43 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
+  background-image: url(/images/background.jpg);
   background-color: #000000;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   height: 100vh;
+  position: relative;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #5a4f4f;
+  border-radius: 40px;
+
+  width: 45%;
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+}
+
+.converter-button {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+
+  background-color: #d84747;
+
+  display: block;
+  margin: 60px auto 40px;
+  padding: 10px 20px;
+  width: 15%;
+
+  border: none;
+  border-radius: 35px;
 }
